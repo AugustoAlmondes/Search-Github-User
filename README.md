@@ -1,54 +1,44 @@
-# React + TypeScript + Vite
+**Search Github User**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Um projeto React + TypeScript + Vite para buscar usuários no Github e exibir seus repositórios.
 
-Currently, two official plugins are available:
+**Funcionalidades**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Busca de usuários no Github
+* Exibição de informações do usuário (avatar, login, localização, seguidores e seguindo)
+* Link para ver os melhores projetos do usuário
 
-## Expanding the ESLint configuration
+**Tecnologias utilizadas**
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+* React
+* TypeScript
+* Vite
+* React Router Dom
+* React Icons
+* ESLint
+* Prettier
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+**Instalação e execução**
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1. Clone o repositório: `git clone https://github.com/seu-usuario/search-github-user.git`
+2. Instale as dependências: `npm install` ou `yarn install`
+3. Execute o projeto: `npm run dev` ou `yarn dev`
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+**Estrutura do projeto**
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+* `src`: pasta com o código fonte do projeto
+* `components`: pasta com os componentes React
+* `routes`: pasta com as rotas do projeto
+* `types`: pasta com os tipos TypeScript
+* `vite.config.ts`: arquivo de configuração do Vite
+* `tsconfig.app.json` e `tsconfig.node.json`: arquivos de configuração do TypeScript
+
+**Contribuição**
+
+Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma ideia para melhorar o projeto, abra uma issue ou faça um pull request.
+
+**Licença**
+
+Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+Espero que isso ajude! Se você tiver alguma dúvida ou precisar de mais ajuda, não hesite em perguntar.
