@@ -36,9 +36,3 @@ Um projeto React + TypeScript + Vite para buscar usuários no Github e exibir se
 **Contribuição**
 
 Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma ideia para melhorar o projeto, abra uma issue ou faça um pull request.
-
-**Licença**
-
-Este projeto é licenciado sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
-
-Espero que isso ajude! Se você tiver alguma dúvida ou precisar de mais ajuda, não hesite em perguntar.
