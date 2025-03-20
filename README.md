@@ -18,11 +18,35 @@ Um projeto React + TypeScript + Vite para buscar usuários no Github e exibir se
 * ESLint
 * Prettier
 
-**Instalação e execução**
+**Clonar e Iniciar a Aplicação**
 
-1. Clone o repositório: `git clone https://github.com/seu-usuario/search-github-user.git`
-2. Instale as dependências: `npm install` ou `yarn install`
-3. Execute o projeto: `npm run dev` ou `yarn dev`
+### Clonar o Repositório
+
+Para clonar o repositório, execute o seguinte comando no seu terminal:
+```bash
+git clone https://github.com/seu-usuario/search-github-user.git
+```
+### Instalar Dependências
+
+Depois de clonar o repositório, navegue até a pasta do projeto e execute o seguinte comando para instalar as dependências:
+```bash
+npm install
+```
+ou
+```bash
+yarn install
+```
+### Iniciar a Aplicação
+
+Para iniciar a aplicação, execute o seguinte comando:
+```bash
+npm run dev
+```
+ou
+```bash
+yarn dev
+```
+A aplicação será iniciada em `http://localhost:3000`. Abra seu navegador e acesse essa URL para visualizar a aplicação em execução.
 
 **Estrutura do projeto**
 
@@ -32,7 +56,3 @@ Um projeto React + TypeScript + Vite para buscar usuários no Github e exibir se
 * `types`: pasta com os tipos TypeScript
 * `vite.config.ts`: arquivo de configuração do Vite
 * `tsconfig.app.json` e `tsconfig.node.json`: arquivos de configuração do TypeScript
-
-**Contribuição**
-
-Contribuições são bem-vindas! Se você encontrar um bug ou tiver uma ideia para melhorar o projeto, abra uma issue ou faça um pull request.
