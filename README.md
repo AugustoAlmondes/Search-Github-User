@@ -24,7 +24,7 @@ Um projeto React + TypeScript + Vite para buscar usuários no Github e exibir se
 
 Para clonar o repositório, execute o seguinte comando no seu terminal:
 ```bash
-git clone https://github.com/seu-usuario/search-github-user.git
+git clone https://github.com/AugustoAlmondes/search-github-user.git
 ```
 ### Instalar Dependências
 
