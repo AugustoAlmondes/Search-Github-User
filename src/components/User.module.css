@@ -1,70 +1,83 @@
-.user{
-    background-color: rgb(167, 167, 167);
+.user {
+    background-color: var(--card-bg);
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 1.2rem;
+    gap: 1.5rem;
+    border: 1px solid var(--border);
+    animation: fadeIn 0.5s ease;
 }
 
-.user img{
-    width: 140px;
-    height: 140px;
-    border: 5px solid rgb(218, 218, 218);
+.reposLink {
+    display: block;
+    margin-top: 1.5rem;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
+    border: 5px solid var(--border);
 }
 
-.location{
-    display: flex;
-    align-items: center;
-    gap: .4rem;
-}
-
-.location svg{
-    fill: rgb(255, 255, 255);
+.user h2 {
+    color: var(--text);
+    margin: 0;
     font-size: 1.5rem;
 }
 
-.location span{
-    color: rgb(87, 87, 87);
+.location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #7d8590;
+    margin: 0;
+}
+
+.location svg {
+    fill: #7d8590;
+    font-size: 1.25rem;
+}
+
+.stats {
+    display: flex;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+.stats div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.stats p:first-child {
+    color: #7d8590;
+    font-size: 0.9rem;
+}
+
+.number {
+    background-color: var(--bg);
+    color: var(--text);
+    padding: 0.25rem 0.5rem;
+    border-radius: 20px;
     font-weight: bold;
 }
 
-.stats{
-    display: flex;
-}
-
-.stats div{
-    padding: 0 1rem;
-    display: flex;
-    flex-direction: column;
-    gap: .4rem;
-}
-
-.stats div:first-child{
-    border-right: 1px solid rgb(87, 87, 87);
-}
-
-.stats .number{
-    background-color: black;
+.link {
+    background-color: var(--primary);
     color: white;
-    padding: .2rem .4rem;
-    border-radius: 3px;
-}
-
-.user a{
-    text-align: center;
-    background-color: rgb(88, 88, 88);
-    padding: 1rem;
-    border-radius: 3px;
-    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 6px;
     text-decoration: none;
-    opacity: .8;
-    transition: .3s;
+    font-weight: 500;
+    transition: background-color 0.2s;
+    width: 100%;
+    text-align: center;
 }
 
-.user a:hover{
-    opacity: 1;
+.link:hover {
+    background-color: #2ea043;
 }
